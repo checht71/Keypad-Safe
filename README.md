@@ -18,6 +18,10 @@ The Solenoid should activate when the correct input is entered on the keypad in 
 #### Pinout:
 Pin 4.0 - sends the signal to the solenoid.
 Pin 4.1 - L Button
+
+![solenoid](https://github.com/checht71/Keypad-Safe/assets/123195574/d980bdf8-9a3d-47a4-a850-ec0e367525ee)
+
+
 Pin 2.3 - R Button
 #### Circuit:
 To operate the solenoid, it must be part of transistor circuit.
@@ -31,6 +35,8 @@ The buzzer should sound when the safe is left open for a certain amount of time 
 Pin 6.3 - PWM out to buzzer
 Pin 4.1 - L Button, decrease pitch
 Pin 2.3 - R Button, increase pitch
+
+![buzzer](https://github.com/checht71/Keypad-Safe/assets/123195574/08b76177-584d-4f77-86bc-9eff4e05ad8c)
 #### Circuit:
 To operate the servo, it must be part of transistor circuit.
 #### Notes:
