@@ -34,10 +34,10 @@ The buzzer should sound when the safe is left open for a certain amount of time 
 Pin 6.3 - PWM out to buzzer
 Pin 4.1 - L Button, decrease pitch
 Pin 2.3 - R Button, increase pitch
-
-![buzzer|600](https://github.com/checht71/Keypad-Safe/assets/123195574/08b76177-584d-4f77-86bc-9eff4e05ad8c)
 #### Circuit:
 To operate the servo, it must be part of transistor circuit.
 #### Notes:
 The pitch of the buzzer is dependent on the duty cycle of the PWM. The code should be updated to include a countdown which activates the buzzer after x seconds.
 The L and R buttons are also redundant and can be removed. The comments of this code also need to be updated.
+
+![buzzer|600](https://github.com/checht71/Keypad-Safe/assets/123195574/08b76177-584d-4f77-86bc-9eff4e05ad8c)
